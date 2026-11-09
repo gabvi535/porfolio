@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Moje Prace - Portfolio</title>
+    <style>
+        html, body { margin: 0; padding: 0; width: 100%; min-height: 100vh; }
+        body {
+            background: linear-gradient(135deg, #1F531C 0%, #652224 100%);
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            color: #333;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        .card {
+            background-color: #fff;
+            border-radius: 16px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        h1, h2 { margin-top: 0; color: #2d3748; text-align: center; }
+        a { color: #3182ce; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        
+        /* Сетка для галереи */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            border-radius: 6px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Galerie Prac</h1>
+            <nav style="text-align: center; margin-bottom: 25px;">
+    <a href="index.html" style="margin: 0 10px;">Strona Główna</a> |
+    <a href="portfolio.html" style="margin: 0 10px;">Moje Prace</a> |
+    <a href="omnie.html" style="margin: 0 10px;">O Mnie</a> |
+    <a href="kontakt.html" style="margin: 0 10px;">Kontakt</a>
+</nav>
+
+            <p style="text-align: center;">Wybrane projekty graficzne oraz prace fotograficzne.</p>
+
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="foto.jpg" alt="Projekt 1">
+                    <p><b>Projekt 1</b><br><small>Rejestracja obrazu</small></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="foto.jpg" alt="Projekt 2">
+                    <p><b>Projekt 2</b><br><small>Obróbka cyfrowa</small></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="foto.jpg" alt="Projekt 3">
+                    <p><b>Projekt 3</b><br><small>Kompozycja kadru</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

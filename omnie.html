@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Ulubieni wykonawcy - Portfolio</title>
+    <style>
+        html, body { margin: 0; padding: 0; width: 100%; min-height: 100vh; }
+        body {
+            background: linear-gradient(135deg, #1F531C 0%, #652224 100%);
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            color: #333;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        .card {
+            background-color: #fff;
+            border-radius: 16px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        h1, h2 { margin-top: 0; color: #2d3748; }
+        h1 { text-align: center; }
+        a { color: #3182ce; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        ul { padding-left: 20px; line-height: 1.6; }
+        li { margin-bottom: 8px; }
+        
+        .music-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .music-item {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+        .music-item img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>O Mnie</h1>
+            <nav style="text-align: center; margin-bottom: 25px;">
+    <a href="index.html" style="margin: 0 10px;">Strona Główna</a> |
+    <a href="portfolio.html" style="margin: 0 10px;">Moje Prace</a> |
+    <a href="omnie.html" style="margin: 0 10px;">O Mnie</a> |
+    <a href="kontakt.html" style="margin: 0 10px;">Kontakt</a>
+</nav>
+            
+            <p style="text-align: center; font-weight: bold;">Muzyka, która towarzyszy mi na co dzień</p>
+            
+            <div class="music-grid">
+                <div class="music-item">
+                    <img src="suicideboys.jpg" alt="$uicideboy$">
+                    <b>$uicideboy$</b><br>
+                    <small>Amerykański duet hip-hopowy.</small><br><br>
+                    <a href="https://music.youtube.com/@suicideboys-G59" target="_blank">YouTube Music</a> | 
+                    <a href="https://www.instagram.com/suicideboys?dlrf=MThvODgybHhzbDk4cw==" target="_blank">Instagram</a>
+                </div>
+                <div class="music-item">
+                    <img src="nervy.jpg" alt="Nervy">
+                    <b>Nervy</b><br>
+                    <small>Rockowy zespół.</small><br><br>
+                    <a href="https://music.youtube.com/@nervy" target="_blank">YouTube Music</a> | 
+                    <a href="https://www.instagram.com/nervy_official?dlrf=cW1zZ3p6MmFpNjZ1" target="_blank">Instagram</a>
+                </div>
+                <div class="music-item">
+                    <img src="neverlove-Unluvd.jpg" alt="Neverlove / Unluvd">
+                    <b>Neverlove / Unluvd</b><br>
+                    <small>Projekt muzyczny w klimacie rock/metal.</small><br><br>
+                    <a href="https://music.youtube.com/@NEVERLOVE" target="_blank">YouTube Music</a> | 
+                    <a href="https://www.instagram.com/neverlove.metal?rpxt=MWpucTd6cjV2c2JteA==" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

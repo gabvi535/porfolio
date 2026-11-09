@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio i Informacje</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1F531C 0%, #652224 100%);
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 
+                        0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            margin-top: 0;
+            color: #2d3748;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            color: #3182ce;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Карточка 1: Информация о пользователе -->
+        <div class="card">
+            <h1>Profil i Informacje Zawodowe</h1>
+            
+            <!-- Меню навигации по страницам -->
+            <nav style="text-align: center; margin-bottom: 25px;">
+                <a href="glowna.html" style="margin: 0 10px;">Strona Główna</a> |
+                <a href="porfolio.html" style="margin: 0 10px;">Moje Prace</a> |
+                <a href="o mnie.html" style="margin: 0 10px;">O Mnie</a> |
+                <a href="kontakt.html" style="margin: 0 10px;">Kontakt</a>
+            </nav>
+
+            <!-- Info o mnie -->
+            <div style="background-color: #f7fafc; padding: 12px 18px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #3182ce;">
+                <p style="margin: 0; font-size: 16px;">
+                    <b>Imię i nazwisko:</b> Viktoriia Korniienko<br>
+                    <b>Wiek:</b> 18 lat
+                </p>
+            </div>
+            <p style="text-align: justify;">
+                Strona mojej głowy
+            </p>
+
+            <ul>
+                <li><b>Cel :</b> Żeby było.</li>
+                <li><b>Umiejętności:</b> Spać, jeść, siedzieć w telefonie.</li>
+                <li><b>Co nie umię:</b> Wszystko.</li>
+                <li><b>Lekcja:</b> Rejestracja obrazu.</li>
+            </ul>
+        </div>
+
+        <!-- Карточка 2: Изображение -->
+        <div class="card">
+            <h2>Materiał graficzny</h2>
+            <p>Prezentacja osadzonego zasobu wizualnego w strukturzie strony:</p>
+            <div style="text-align: center;">
+                <img src="foto.jpg" alt="Przykładowy obrazek" style="border-radius: 8px; max-width: 100%;">
+            </div>
+        </div>
+
+        <!-- Карточка 3: Ссылки -->
+        <div class="card">
+            <h2>Dokumentacja i odsyłacze</h2>
+            <ul>
+                <li>Instagram: <a href="https://www.instagram.com/im.diaz.lee?cplk=a2tudHh5cmRhYTJh" target="_blank">Acсount</a></li>
+                <li>Kontakt elektroniczny: <a href="mailto:kornienkov535@gmail.com">Wyślij wiadomość e-mail</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
